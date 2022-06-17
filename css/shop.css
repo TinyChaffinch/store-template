@@ -1,0 +1,18 @@
+.shop-list {
+    list-style-type: none;
+    font-size: 1.7em;
+}
+
+.shop-menu {
+    background-color: rgba(160, 160, 160, 0.7);
+    flex: 1;
+}
+
+.shop-menu p {
+    margin: 20px;
+    font-size: 1.7em;
+}
+
+.shop-list a {
+    text-decoration: none;
+}

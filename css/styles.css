@@ -1,0 +1,99 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(160, 160, 160, 1);
+}
+
+/* Меню навигации */
+
+.nav-menu {
+    background-color: rgba(160, 160, 160, 0.7);
+    height: 110px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ul-menu {
+    padding: 0;
+    list-style-type: none;
+}
+
+.ul-menu li {
+    display: inline-block;
+}
+
+.ul-menu a {
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    padding: 0 20px;
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+    transition: .3s linear;
+}
+
+.ul-menu a:hover {
+    background-color: rgba(100, 100, 100, 0.9);
+}
+
+.menu-logo {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+}
+
+.menu-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Центральная часть */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+.shop-item {
+    background-color: rgba(240, 240, 240, 0.7);
+    flex: 3;
+}
+
+/* Подвал */
+
+footer {
+    background-color: rgba(160, 160, 160, 0.7);
+}
+
+@media (max-width: 693px) {
+    header {
+        height: 180px;
+    }
+    
+    .ul-menu {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        height: 215px;
+    }
+}
