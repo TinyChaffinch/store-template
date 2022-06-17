@@ -1,7 +1,4 @@
-.shop-list {
-    list-style-type: none;
-    font-size: 1.7em;
-}
+/* Меню магазина */
 
 .shop-menu {
     background-color: rgba(160, 160, 160, 0.7);
@@ -13,6 +10,17 @@
     font-size: 1.7em;
 }
 
+.shop-list {
+    list-style-type: none;
+    font-size: 1.7em;
+}
+
 .shop-list a {
     text-decoration: none;
+}
+
+/* Центральная часть магазина */
+
+.shop-item {
+    font-size: 1.6em;
 }
