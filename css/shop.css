@@ -1,22 +1,28 @@
 /* Меню магазина */
 
 .shop-menu {
-    background-color: rgba(160, 160, 160, 0.7);
+    background-color: rgba(230, 230, 230, 0.7);
     flex: 1;
 }
 
-.shop-menu p {
+.shop-menu h1 {
     margin: 20px;
-    font-size: 1.7em;
+    font-size: 2em;
 }
 
 .shop-list {
     list-style-type: none;
     font-size: 1.7em;
+    padding: 0;
+    margin: 20px;
+}
+.shop-list li {
+    margin: 5px 0 5px 0;
 }
 
 .shop-list a {
     text-decoration: none;
+    color: black;
 }
 
 /* Центральная часть магазина */
