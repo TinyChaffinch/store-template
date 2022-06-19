@@ -10,6 +10,13 @@
     font-size: 2em;
 }
 
+.shop-menu div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+}
+
 .shop-list {
     list-style-type: none;
     font-size: 1.7em;
@@ -22,6 +29,11 @@
 
 .shop-list a {
     text-decoration: none;
+    color: black;
+}
+
+.shop-list a:hover {
+    border-bottom: 1px solid;
     color: black;
 }
 

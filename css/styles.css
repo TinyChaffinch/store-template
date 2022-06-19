@@ -4,7 +4,6 @@ html {
 
 body {
     margin: 0;
-    background-color: rgba(230, 230, 230, 1);
     box-sizing: border-box;
 }
 
@@ -43,7 +42,7 @@ body {
 }
 
 .ul-menu a:hover {
-    background-color: rgba(100, 100, 100, 0.9);
+    background-color: rgba(100, 100, 100, 0.6);
 }
 
 .menu-logo {
@@ -88,8 +87,16 @@ footer {
 }
 
 .footer-tel {
+    display: inline-grid;
+    grid-auto-flow: column;
+    column-gap: 0.4em;
+    align-items: center;
     float: right;
     margin-right: 20px;
+}
+
+.footer-tel img {
+    width: 20px;
 }
 
 /* Медиа запросы */
@@ -108,6 +115,7 @@ footer {
 
     .nav-menu {
         align-content: normal;
+        height: 180px;
     }
 }
 
