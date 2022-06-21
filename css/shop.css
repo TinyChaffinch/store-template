@@ -30,15 +30,19 @@
 .shop-list a {
     text-decoration: none;
     color: black;
+    transition: .2s linear;
 }
 
 .shop-list a:hover {
     border-bottom: 1px solid;
-    color: black;
+    transition: .2s linear;
 }
 
 /* Центральная часть магазина */
 
 .shop-item {
     font-size: 1.6em;
+    background-color: rgba(250, 250, 250, 0.7);
+    flex: 3;
+    padding: 20px;
 }
