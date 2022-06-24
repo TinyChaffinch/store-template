@@ -63,7 +63,7 @@ body {
 }
 
 .shop-name {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 /* Центральная часть */
@@ -83,13 +83,13 @@ main {
 
 footer {
     background-color: rgba(230, 230, 230, 0.7);
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 
 .footer-tel {
     display: inline-grid;
     grid-auto-flow: column;
-    column-gap: 0.4em;
+    column-gap: 0.4rem;
     align-items: center;
     float: right;
     margin-right: 20px;
