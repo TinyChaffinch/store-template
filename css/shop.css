@@ -13,7 +13,6 @@
 .shop-menu div {
     display: flex;
     flex-direction: column;
-    background-color: white;
     margin: 20px;
 }
 
@@ -21,22 +20,29 @@
     list-style-type: none;
     font-size: 1.7rem;
     padding: 0;
-    margin: 20px;
+    margin: 0px;
+    text-align: center;
 }
 
 .shop-list li {
-    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
+    transition: .2s linear;
+}
+
+.shop-list li:hover,
+.shop-list li:focus {
+    padding: 5px 0 5px 0;
+    background-color: rgba(190, 190, 190, 0.9);
 }
 
 .shop-list a {
     text-decoration: none;
     color: black;
-    transition: .2s linear;
 }
 
-.shop-list a:hover {
+.shop-list a:hover,
+.shop-list a:focus {
     border-bottom: 1px solid;
-    transition: .2s linear;
 }
 
 /* Центральная часть магазина */
