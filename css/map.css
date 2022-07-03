@@ -1,0 +1,16 @@
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 1080px) {
+    #map {
+        height: 300px;
+    }
+}
+
+@media (max-width: 535px) {
+    #map {
+        height: 200px;
+    }
+}
