@@ -68,6 +68,10 @@
     text-align: center;
 }
 
+.shop-card p {
+    margin: 10px;
+}
+
 .shop-card img {
     width: 100%;
 }
