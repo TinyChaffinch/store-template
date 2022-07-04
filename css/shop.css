@@ -111,7 +111,20 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    header {
+        height: 105px;
+    }
+
     main {
         flex-direction: column;
+    }
+    
+    .nav-menu {
+        height: 85px;
+    }
+
+    .shop-name,
+    .menu-logo {
+        display: none;
     }
 }
