@@ -75,7 +75,54 @@ body {
 }
 
 main {
+    background-color: rgba(230, 230, 230, 0.7);
+    font-size: 1.6rem;
+}
+
+main p {
+    margin: 0px;
+    text-align: center;
+}
+
+.shop-main {
     display: flex;
+}
+
+.contacts-main {
+    margin: 0;
+    font-size: 1.6rem;
+    justify-content: center;
+}
+
+.contacts-main p {
+    padding: 5px;
+}
+
+.contacts-main span {
+    color: rgb(35, 30, 255);
+}
+
+.delivery-main {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.delivery-main h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.delivery-main p {
+    padding: 5px;
+}
+
+.delivery-main ul {
+    margin: 0;
+    padding: 20px;
+    font-size: 1.6rem;
+    text-align: left;
+    list-style-type: none;
 }
 
 /* Подвал */
@@ -83,6 +130,7 @@ main {
 footer {
     background-color: rgba(230, 230, 230, 0.7);
     font-size: 1.6rem;
+    min-height: 52px;
 }
 
 .footer-tel {
