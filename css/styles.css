@@ -82,6 +82,7 @@ main {
 main p {
     margin: 0px;
     text-align: center;
+    padding: 5px;
 }
 
 .shop-main {
@@ -91,11 +92,6 @@ main p {
 .contacts-main {
     margin: 0;
     font-size: 1.6rem;
-    justify-content: center;
-}
-
-.contacts-main p {
-    padding: 5px;
 }
 
 .contacts-main span {
@@ -107,22 +103,26 @@ main p {
     font-size: 1.6rem;
 }
 
+#map {
+    margin: 10px 0px 10px 0px;
+}
+
 .delivery-main h1 {
     margin: 0;
     padding: 10px;
     text-align: center;
 }
 
-.delivery-main p {
-    padding: 5px;
-}
-
 .delivery-main ul {
     margin: 0;
-    padding: 20px;
+    padding-left: 20px;
     font-size: 1.6rem;
     text-align: left;
     list-style-type: none;
+}
+
+.delivery-main ul li {
+    padding: 5px 0px 5px 0px;
 }
 
 /* Подвал */
@@ -152,7 +152,7 @@ footer {
     header {
         height: 180px;
     }
-    
+
     .ul-menu {
         display: flex;
         width: 100%;
