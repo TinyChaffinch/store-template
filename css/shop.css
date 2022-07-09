@@ -6,7 +6,7 @@
 
 .shop-menu h1 {
     margin: 20px;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .shop-menu div {
@@ -17,7 +17,7 @@
 
 .shop-list {
     list-style-type: none;
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding: 0;
     margin: 0px;
     text-align: center;
@@ -127,8 +127,17 @@
         height: 85px;
     }
 
+    .ul-menu {
+        justify-content: center;
+        margin: 0;
+    }
+
     .shop-name,
     .menu-logo {
         display: none;
+    }
+
+    .shop-menu div {
+        margin: 0px 20px;
     }
 }
