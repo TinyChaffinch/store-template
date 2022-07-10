@@ -104,10 +104,6 @@ main p {
     display: flex;
 }
 
-.contacts-main {
-    margin: 0;
-}
-
 .contacts-main span {
     color: rgb(35, 30, 255);
 }
@@ -123,16 +119,14 @@ main p {
 
 .delivery-main h1 {
     margin: 0;
-    padding: 0 0 10px 0;
+    padding: 0 0 15px 0;
     text-align: center;
     font-size: 3.5rem;
 }
 
 .delivery-main ul {
-    margin: 0;
     padding-left: 20px;
     font-size: 2rem;
-    text-align: left;
     list-style-type: none;
 }
 
