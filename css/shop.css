@@ -93,7 +93,7 @@
 .shop-card button:hover,
 .shop-card button:focus {
     background-color: #ff1100;
-} 
+}
 
 @media (max-width: 1200px) {
     .shop-item-grid {
@@ -119,7 +119,7 @@
     main {
         flex-direction: column;
     }
-    
+
     .nav-menu {
         height: 85px;
     }
