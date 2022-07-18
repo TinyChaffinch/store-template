@@ -21,6 +21,38 @@ body {
     min-height: 100%;
 }
 
+/* Плавающая кнопка прокрутки */
+
+.back_to_top {
+    position: fixed;
+    top: 85%;
+    right: 10%;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    font-size: 2.5rem;
+    letter-spacing: normal;
+    line-height: 30px;
+    background: rgba(66, 66, 66, 0.7);
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 30%;
+    display: none;
+}
+
+.back_to_top:hover,
+.back_to_top:focus {
+    background: rgba(83, 83, 83, 0.5);
+}
+
+.back_to_top-show {
+    display: block;
+}
+
 /* Меню навигации */
 
 .shop-name {
@@ -141,9 +173,9 @@ footer {
     font-size: 1.6rem;
     min-height: 52px;
     position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-tel {
