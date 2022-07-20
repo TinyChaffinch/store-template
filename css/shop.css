@@ -66,9 +66,7 @@
     text-align: center;
 }
 
-.shop-card p {
-    margin: 10px;
-}
+/* Изоображения на карточках */
 
 .shop-card img {
     width: 100%;
@@ -79,8 +77,15 @@
     overflow: hidden;
 }
 
-.shop-card img:hover {
+.shop-card img:hover,
+.shop-card img:focus {
     transform: scale(1.2);
+}
+
+/* Остальная информация на карточке */
+
+.shop-card p {
+    margin: 10px;
 }
 
 .item-price {
@@ -103,6 +108,8 @@
 .shop-card button:focus {
     background-color: #ff1100;
 }
+
+/* Медиа запросы */
 
 @media (max-width: 1200px) {
     .shop-item-grid {
